@@ -7,6 +7,7 @@ body {
 
   /* display: flex; */
   /* flex-wrap: wrap; */
+  justify-content: center;
 }
 #add-btn,
 #sort-aes,
@@ -41,6 +42,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+#search {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  outline: none;
 }
 .userdata {
   background: gray;
