@@ -1,3 +1,67 @@
 body {
   font-family: sans-serif;
+  margin: 0px;
+}
+#app {
+  /* here btn appllied css */
+
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+#add-btn,
+#sort-aes,
+#sort-des {
+  background-color: black;
+  border-radius: 5px;
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* box-shadow: 5px 10px; */
+}
+
+#add-btn:hover {
+  color: gold;
+}
+#sort-aes:hover {
+  color: gold;
+}
+#sort-des:hover {
+  color: gold;
+}
+#user-list {
+  /* margin: 5px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.userdata {
+  background: gray;
+  color: gold;
+  margin: 5px;
+  min-width: 30%;
+  height: 25vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* max-width: 100%; */
+  /* min-width: 30%; */
+}
+.userdata:hover {
+  background: black;
+  color: white;
+
+  box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
+  -webkit-box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
+  -moz-box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
 }

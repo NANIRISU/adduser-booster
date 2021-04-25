@@ -45,10 +45,10 @@ const domRender = (stateArr) => {
   stateArr.forEach((userObj) => {
     // const userElement = document.createElement("div");
 
-    userlist.innerHTML += `<div>
-  ${userObj.name}
- <ol><li>${userObj.gender}</li>
- <li>  ${userObj.email} </li> </ol   </div>`; // newline
+    userlist.innerHTML += `<div class="userdata">
+   <div class="user"> Email: ${userObj.email}</div>
+ <div class="user"> Name:${userObj.name} </div>
+ <div class="user">Gender:${userObj.gender}  </div>  </div>`; // newline
     // userlist.appendChild(userElement);
   });
 };
