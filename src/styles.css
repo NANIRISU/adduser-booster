@@ -9,6 +9,10 @@ body {
   /* flex-wrap: wrap; */
   justify-content: center;
 }
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
 #add-btn,
 #sort-aes,
 #sort-des {
@@ -29,12 +33,15 @@ body {
 
 #add-btn:hover {
   color: gold;
+  box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
 }
 #sort-aes:hover {
   color: gold;
+  box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
 }
 #sort-des:hover {
   color: gold;
+  box-shadow: -2px 4px 41px 0px rgba(75, 159, 203, 0.75);
 }
 #user-list {
   /* margin: 5px; */
